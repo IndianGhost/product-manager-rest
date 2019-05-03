@@ -1,0 +1,5 @@
+com\product\rest\controller\ProductController.class
+com\product\rest\dao\ProductDao.class
+com\product\rest\Application.class
+com\product\rest\bean\Product.class
+com\product\rest\repository\ProductRepository.class
