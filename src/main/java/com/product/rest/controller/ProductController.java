@@ -29,7 +29,7 @@ public class ProductController {
 	
 	/* To save a product */
 	@PostMapping("/")
-	public Product createProduct(Product product) {
+	public Product createProduct(@RequestBody Product product) {
 		return productDao.save(product);
 	}
 	
